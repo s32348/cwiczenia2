@@ -15,10 +15,18 @@ public class Student {
         srednia/=grades.length;
         if(srednia<2.24){
             srednia=2;
-        }
-            else if{srednia<2.74){
-        srednia=2.5;
-        }
+        } else if(srednia<2.74) {
+            srednia=2.5;
+        } else if(srednia<3.24) {
+            srednia = 3;
+        } else if(srednia<3.74) {
+            srednia = 3.5;
+        } else if(srednia<4.24) {
+            srednia = 4;
+        } else if(srednia<4.74) {
+            srednia = 4.5;
+        } else {
+            srednia=5;
         }
         return srednia;
 

@@ -1,9 +1,17 @@
+
 public class Main {
     public static void main(String[] args) {
-    Student st=new Student();
-    StudentGroup gr=new StudentGroup();
+        double[] oceny=new double[20];
+        for(int i=0;i<oceny.length;i++){
+            System.out.print(oceny[i]+" ");
+        }
     }
-    public static getSrednia(){
+
+    public static void printArray(double[] arr){
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
 
     }
 }
