@@ -5,8 +5,6 @@ public class Student {
     public String email;
     public String address;
     public double[] grades;
-
-
     public double getSrednia(){
         double srednia=0;
         for (int i=0;i<grades.length;i++){
@@ -28,7 +26,7 @@ public class Student {
         } else {
             srednia=5;
         }
+        System.out.println("srednia to: " +srednia);
         return srednia;
-
     }
 }

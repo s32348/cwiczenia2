@@ -1,17 +1,14 @@
-
 public class Main {
     public static void main(String[] args) {
-        double[] oceny=new double[20];
-        for(int i=0;i<oceny.length;i++){
-            System.out.print(oceny[i]+" ");
-        }
-    }
+        Student st = new Student();
+        st.fname = "Jacek";
+        st.lname = "Programistaobiektowy";
+        st.indexNumber = 32348;
+        st.email = "goryl@szympans.pl";
+        st.address = "Bogdaniec 1/2";
+        st.grades = new double[]{4, 3, 2,5,5};
 
-    public static void printArray(double[] arr){
-        for(int i=0;i<arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println();
-
+        double sr= st.getSrednia();
     }
+    
 }
