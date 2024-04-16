@@ -6,9 +6,8 @@ public class Main {
         st.indexNumber = 32348;
         st.email = "goryl@szympans.pl";
         st.address = "Bogdaniec 1/2";
-        st.grades = new double[]{4, 3, 2,5,5};
-
+        st.grades = new double[]{6,3,4,3,4,3,4,6,6,5};
         double sr= st.getSrednia();
+
     }
-    
 }
